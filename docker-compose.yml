@@ -1,0 +1,23 @@
+services:
+  agentsview:
+    image: ghcr.io/kenn-io/agentsview:latest
+    ports:
+      - "127.0.0.1:8080:8080"
+    volumes:
+      - agentsview-data:/data
+      - ${HOME}/.claude/projects:/agents/claude:ro
+      - ${HOME}/.codex/sessions:/agents/codex:ro
+      - ${HOME}/.cursor/projects:/agents/cursor:ro
+      - ${HOME}/.gemini:/agents/gemini:ro
+      - ${HOME}/.kiro:/agents/kiro:ro
+      - ${HOME}/.copilot:/agents/copilot:ro
+    environment:
+      CLAUDE_PROJECTS_DIR: /agents/claude
+      CODEX_SESSIONS_DIR: /agents/codex
+      CURSOR_PROJECTS_DIR: /agents/cursor
+      GEMINI_DIR: /agents/gemini
+      KIRO_DIR: /agents/kiro
+      COPILOT_DIR: /agents/copilot
+
+volumes:
+  agentsview-data:
