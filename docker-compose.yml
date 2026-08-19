@@ -9,14 +9,14 @@ services:
       - ${HOME}/.codex/sessions:/agents/codex:ro
       - ${HOME}/.cursor/projects:/agents/cursor:ro
       - ${HOME}/.gemini:/agents/gemini:ro
-      - ${HOME}/.kiro:/agents/kiro:ro
+      - ${HOME}/.kiro:/root/.kiro:ro
       - ${HOME}/.copilot:/agents/copilot:ro
     environment:
       CLAUDE_PROJECTS_DIR: /agents/claude
       CODEX_SESSIONS_DIR: /agents/codex
       CURSOR_PROJECTS_DIR: /agents/cursor
       GEMINI_DIR: /agents/gemini
-      KIRO_DIR: /agents/kiro
+      KIRO_DIR: /root/.kiro/sessions/cli
       COPILOT_DIR: /agents/copilot
 
 volumes:
