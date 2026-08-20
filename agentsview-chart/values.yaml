@@ -1,0 +1,11 @@
+homeDir: /root
+
+image:
+  repository: ghcr.io/kenn-io/agentsview
+  tag: latest
+
+service:
+  port: 8080
+
+storage:
+  size: 1Gi

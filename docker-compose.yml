@@ -1,8 +1,10 @@
+---
 services:
   agentsview:
     image: ghcr.io/kenn-io/agentsview:latest
+    restart: always
     ports:
-      - "127.0.0.1:8080:8080"
+      - "8080:8080"
     volumes:
       - agentsview-data:/data
       - ${HOME}/.claude/projects:/agents/claude:ro

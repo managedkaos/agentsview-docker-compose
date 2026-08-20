@@ -12,3 +12,16 @@ down: ## Stop and remove services
 
 logs: ## Follow service logs
 	docker compose logs -f
+
+helm: ## Deploy AgentsView with Helm to the agentsview namespace
+	helm upgrade --install agentsview ./agentsview-chart \
+		--namespace agentsview \
+		--create-namespace \
+		--set homeDir=$(HOME)
+
+helm-down: ## Uninstall the Helm-deployed AgentsView
+	helm uninstall agentsview --namespace agentsview
+
+lint: ## Lint the Helm chart and docker-compose.yml
+	helm lint ./agentsview-chart --set homeDir=$(HOME)
+	yamllint docker-compose.yml

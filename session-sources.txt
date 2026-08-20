@@ -1,0 +1,298 @@
+Session Providers
+Choose which agent session sources AgentsView discovers and syncs.
+
+Claude Code
+/agents/claude
+
+
+OpenClaude
+/root/.openclaude/projects
+
+
+Claude Cowork
+/root/Library/Application Support/Claude/local-agent-mode-sessions
+/root/.config/Claude/local-agent-mode-sessions
+/root/AppData/Local/Packages/Claude_pzs8sxrjxfjjc/LocalCache/Roaming/Claude/local-agent-mode-sessions
+/root/AppData/Roaming/Claude/local-agent-mode-sessions
+
+
+Codex
+/agents/codex
+
+
+TraeX
+/root/.trae/cli/sessions
+/root/.trae/cli/archived_sessions
+
+
+Copilot
+/agents/copilot
+
+
+Gemini
+/agents/gemini
+
+
+MiMoCode
+/root/.local/share/mimocode
+
+
+OpenCode
+/root/.local/share/opencode
+
+
+Kilo
+/root/.local/share/kilo
+
+
+Kilo (legacy)
+/root/Library/Application Support/Code/User/globalStorage/kilocode.kilo-code
+/root/.config/Code/User/globalStorage/kilocode.kilo-code
+/root/AppData/Roaming/Code/User/globalStorage/kilocode.kilo-code
+
+
+OpenHands CLI
+/root/.openhands/conversations
+
+
+Cursor
+/agents/cursor
+
+
+Amp
+/root/.local/share/amp/threads
+
+
+Zencoder
+/root/.zencoder/sessions
+
+
+iFlow
+/root/.iflow/projects
+
+
+VSCode Copilot
+/root/AppData/Roaming/Code/User
+/root/AppData/Roaming/Code - Insiders/User
+/root/AppData/Roaming/VSCodium/User
+/root/Library/Application Support/Code/User
+/root/Library/Application Support/Code - Insiders/User
+/root/Library/Application Support/VSCodium/User
+/root/.config/Code/User
+/root/.config/Code - Insiders/User
+/root/.config/VSCodium/User
+
+
+Windsurf
+/root/AppData/Roaming/Windsurf/User
+/root/AppData/Roaming/Windsurf - Next/User
+/root/Library/Application Support/Windsurf/User
+/root/Library/Application Support/Windsurf - Next/User
+/root/.config/Windsurf/User
+/root/.config/Windsurf - Next/User
+
+
+Trae
+/root/AppData/Roaming/Trae/User
+/root/AppData/Roaming/Trae CN/User
+/root/AppData/Roaming/TRAE SOLO CN/User
+/root/Library/Application Support/Trae/User
+/root/Library/Application Support/Trae CN/User
+/root/Library/Application Support/TRAE SOLO CN/User
+/root/.config/Trae/User
+/root/.config/Trae CN/User
+/root/.config/TRAE SOLO CN/User
+
+
+Visual Studio Copilot
+/root/AppData/Local/Temp/VSGitHubCopilotLogs/traces
+/root/Library/Caches/VSGitHubCopilotLogs/traces
+/root/.cache/VSGitHubCopilotLogs/traces
+
+
+Pi
+/root/.pi/agent/sessions
+
+
+Prime Agent
+/root/.prime/agent/sessions
+
+
+OhMyPi
+/root/.omp/agent/sessions
+
+
+Qwen Code
+/root/.qwen/projects
+
+
+Command Code
+/root/.commandcode/projects
+
+
+DeepSeek TUI
+/root/.codewhale/sessions
+/root/.deepseek/sessions
+
+
+DeepSeek Harness
+/root/.dsh/sessions
+
+
+OpenClaw
+/root/.openclaw/agents
+/root/.kimi_openclaw/agents
+
+
+QClaw
+/root/.qclaw/agents
+
+
+Kimi
+/root/.kimi/sessions
+/root/.kimi-code/sessions
+
+
+Kimi Work
+/root/Library/Application Support/kimi-desktop/daimon-share/daimon/runtime/kimi-code/home/sessions
+/root/.config/kimi-desktop/daimon-share/daimon/runtime/kimi-code/home/sessions
+/root/.local/share/kimi-desktop/daimon-share/daimon/runtime/kimi-code/home/sessions
+/root/AppData/Roaming/kimi-desktop/daimon-share/daimon/runtime/kimi-code/home/sessions
+
+
+Kiro
+/root/.kiro/sessions/cli
+/root/.local/share/kiro-cli
+
+
+Kiro IDE
+/root/Library/Application Support/Kiro/User/globalStorage/kiro.kiroagent
+/root/AppData/Roaming/Kiro/User/globalStorage/kiro.kiroagent
+/root/.config/Kiro/User/globalStorage/kiro.kiroagent
+
+
+Cortex Code
+/root/.snowflake/cortex/conversations
+
+
+Hermes Agent
+/root/.hermes/sessions
+/root/.hermes/profiles
+
+
+Grok
+/root/.grok/sessions
+
+
+Goose
+/root/.local/share/goose/sessions
+/root/AppData/Roaming/Block/goose/data/sessions
+
+
+WorkBuddy
+/root/.workbuddy/projects
+
+
+Forge
+/root/.forge
+
+
+Devin
+/root/Library/Application Support/devin
+/root/.local/share/devin
+
+
+Piebald
+/root/.local/share/piebald
+/root/Library/Application Support/piebald
+/root/AppData/Roaming/piebald
+
+
+Warp
+/root/Library/Group Containers/2BBY89MBSN.dev.warp/Library/Application Support/dev.warp.Warp-Stable
+/root/.local/state/warp-terminal
+/root/AppData/Local/warp/Warp/data
+
+
+Positron Assistant
+/root/Library/Application Support/Positron/User
+
+
+Posit Assistant
+/root/.posit/assistant/workspaces
+
+
+ZCode
+/root/.zcode/cli/db
+/root/.zcode/cli
+
+
+Zed
+/root/Library/Application Support/Zed
+/root/.local/share/zed
+/root/AppData/Local/Zed
+
+
+Antigravity
+/root/.gemini/antigravity
+
+
+Antigravity CLI
+/root/.gemini/antigravity-cli
+
+
+QwenPaw
+/root/.copaw/workspaces
+
+
+gptme
+/root/.local/share/gptme/logs
+
+
+Qoder
+/root/.qoder/projects
+/root/.qoderwork/projects
+/root/Library/Application Support/Qoder/SharedClientCache/cli/projects
+/root/.config/Qoder/SharedClientCache/cli/projects
+/root/AppData/Roaming/Qoder/SharedClientCache/cli/projects
+
+
+Shelley
+/root/.config/shelley
+
+
+Mistral Vibe
+/root/.vibe/logs/session
+
+
+Aider
+No directories configured
+
+
+Reasonix
+/root/.reasonix
+/root/AppData/Roaming/reasonix
+
+
+IcodeMate
+/root/.local/share/icodemate
+
+
+RooCode
+/root/Library/Application Support/Code/User/globalStorage/rooveterinaryinc.roo-cline
+/root/.config/Code/User/globalStorage/rooveterinaryinc.roo-cline
+/root/AppData/Roaming/Code/User/globalStorage/rooveterinaryinc.roo-cline
+
+
+Poolside
+/root/Library/Application Support/poolside
+/root/.local/state/poolside
+/root/AppData/Roaming/poolside
+
+
+Omnigent
+/root/.omnigent
+
+
+Codebuff
+/root/.config/manicode/projects

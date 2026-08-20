@@ -1,0 +1,3 @@
+AgentsView is deployed to the {{ .Release.Namespace }} namespace.
+
+Access it at: http://localhost:{{ .Values.service.port }}
