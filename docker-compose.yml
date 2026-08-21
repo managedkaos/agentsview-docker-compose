@@ -4,13 +4,15 @@ services:
     ports:
       - "127.0.0.1:8080:8080"
     volumes:
-      - agentsview-data:/data
+      - "${HOME}/Library/Application Support/Kiro/User/globalStorage/kiro.kiroagent:/root/Library/Application Support/Kiro/User/globalStorage/kiro.kiroagent:ro"
       - ${HOME}/.claude/projects:/agents/claude:ro
       - ${HOME}/.codex/sessions:/agents/codex:ro
+      - ${HOME}/.config/goose:/root/.local/share/goose/sessions:ro
+      - ${HOME}/.copilot:/agents/copilot:ro
       - ${HOME}/.cursor/projects:/agents/cursor:ro
       - ${HOME}/.gemini:/agents/gemini:ro
       - ${HOME}/.kiro:/root/.kiro:ro
-      - ${HOME}/.copilot:/agents/copilot:ro
+      - agentsview-data:/data
     environment:
       CLAUDE_PROJECTS_DIR: /agents/claude
       CODEX_SESSIONS_DIR: /agents/codex
